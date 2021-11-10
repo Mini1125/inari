@@ -1,0 +1,72 @@
+#banner {
+  position: relative;
+  height: 1500px;
+
+}
+
+#banner::before {
+  background-image: url("img/Fushimi Inari Taisha passage.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.65;
+}
+
+h1 {
+  font-size: 125px;
+  color: #F7F5F7;
+  text-align: center;
+  font-family: "Roboto thin", sans-serif;
+  letter-spacing: 50px;
+  position: relative;
+  padding: 50px
+}
+
+nav {
+  color: #F7F5F7;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  padding-top: 200px;
+  justify-content: space-around;
+  position: relative;
+}
+
+#line{
+  border-bottom: 3px solid #F7F5F7;
+  position: relative;
+  padding: 20px;
+  width: 1500px;
+  margin: auto;
+}
+
+a {
+  font-family: "Roboto light", sans-serif;
+  font-size: 50;
+}
+
+a:hover {
+  color: ;
+}
+
+body {
+  background: #0B1922;
+}
+
+.bodytext {
+  color: #F7F5F7;
+  font-size: 25px;
+  font-family: "Roboto Bold", sans-serif;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1200px;
+  line-height: 32px;
+  position: relative;
+  text-align: left;
+}
