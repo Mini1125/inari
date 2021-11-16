@@ -3,6 +3,12 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+  src: url(fonts/Roboto-Regular.ttf)
+  font-family: reg;
+
+}
+
 .head {
   background: url("img/Fushimi-Inari-Taisha-passage.jpeg") no-repeat center;
   background-size: cover;
