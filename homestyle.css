@@ -16,27 +16,45 @@ h1 {
   font-weight: 900;
   letter-spacing: 50px;
   position: relative;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 nav {
   color: #F7F5F7;
   font-size: 35px;
+  font-weight: 700;
   text-align: center;
   display: flex;
   padding-top: 100px;
   justify-content: space-around;
-  position: relative;
+  align-items: center;
+  
 }
 
 a {
-  font-weight: 200;
-  font-size: 50;
+  position: relative;
+  padding: 0 10px;
 }
+  
 
-a:hover {
-  color: ;
+a:after{
+  content: "";
+  position: absolute;
+  background-color: #F7F5F7;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
 }
+  
+a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+    
+  }
+  
+
 
 .bodytext {
   color: #F7F5F7;
@@ -54,6 +72,34 @@ a:hover {
   margin-top: 150px;
   
 }
+
+
+.Button {  
+  
+  position: relative;
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+  background-color: #F7F5F7;
+  border-radius: 10px;
+  padding: 10px 40px;
+ 
+}
+
+#LM {
+   color: #0B1922;
+  font-size: 20px;
+  font-weight: ;
+  
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1100px) {
   h1 {
@@ -90,8 +136,8 @@ a:hover {
 
 @media only screen and (max-width: 650px) {
   .bodytext {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 50px;
     font-size: 15px;
     line-height: 19px;
