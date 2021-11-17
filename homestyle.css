@@ -23,7 +23,7 @@ h1 {
 nav {
   color: #F7F5F7;
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   display: flex;
   padding-top: 100px;
@@ -80,7 +80,7 @@ a:hover:after {
 #LM {
   color: #0B1922;
   font-size: 20px;
-  font-weight: ;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 1100px) {
