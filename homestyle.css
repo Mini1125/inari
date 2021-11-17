@@ -29,9 +29,15 @@ html {
 
 
 .head {
-  background: url("img\Fushimi-Inari-Taisha-passage-tint.png") no-repeat center;
+  background: url("img/Fushimi-Inari-Taisha-passage-tint.png") no-repeat center;
   background-size: cover;
   padding-bottom: 55px;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
 }
 
 h1 {
@@ -88,8 +94,8 @@ a:hover:after {
   position: relative;
   text-align: left;
   background: #0B1922;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 400px;
+  padding-right: 400px;
   margin-top: 150px;
 }
 
@@ -109,7 +115,35 @@ a:hover:after {
   font-size: 25px;
   color: #0B1922;
   border-radius: 5px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: .2s;
 }
+
+.btn:hover {
+  background-color: #555b6e;
+
+}
+
+.imgs {
+width: 100%;
+background-color: #0B1922;
+
+}
+
+.img1 {
+  width: 100%;
+
+}
+
+.img2 {
+  
+}
+
+.img3 {
+  
+}
+
 
 @media only screen and (max-width: 1100px) {
   h1 {
@@ -141,9 +175,25 @@ a:hover:after {
     padding-right: 50px;
     margin-top: 100px;
   }
+
+  nav {
+    font-size: 20px;
+    padding-top: 50px;
+  }
 }
 
+
 @media only screen and (max-width: 650px) {
+  .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 12.5px;
+  }
+
+  .container {
+    padding-top: 25px;
+  }
+
   .bodytext {
     padding-left: 40px;
     padding-right: 40px;
@@ -152,11 +202,5 @@ a:hover:after {
     line-height: 19px;
     font-weight: 400;
   }
-}
 
-@media only screen and (max-width: 905px) {
-  nav {
-    font-size: 20px;
-    padding-top: 50px;
-  }
-}
+}  
