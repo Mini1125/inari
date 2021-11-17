@@ -1,0 +1,284 @@
+html {
+    font-size: 16px;
+  }
+
+  @font-face {
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: reg;
+  }
+  
+  @font-face {
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: light;
+  }
+  
+  @font-face {
+    src: url(fonts/Roboto-Medium.ttf);
+    font-family: med;
+  }
+  
+  @font-face {
+    src: url(fonts/Roboto-Thin.ttf);
+    font-family: thn;
+  }
+  
+  @font-face {
+    src: url(fonts/Roboto-Bold.ttf);
+    font-family: bld;
+  }
+  
+  
+  .head {
+    background: url("img/shrine house.png") no-repeat center;
+    background-size: cover;
+    padding-bottom: 55px;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+  }
+  
+  h1 {
+    font-size: 125px;
+    font-family: light;
+    color: #F7F5F7;
+    text-align: center;
+    letter-spacing: 50px;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  nav {
+    color: #F7F5F7;
+    font-size: 35px;
+    font-family: reg;
+    text-align: center;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 9px;
+  }
+
+  .links .current::after {
+
+    content: "";
+    position: absolute;
+    background-color: #F7F5F7;
+    height: 3px;
+    width: 100%;
+    left: 0px;
+    bottom: -7px;
+    
+  }
+  
+  a {
+    position: relative;
+    padding: 0px;
+    text-decoration: none;
+    color: #F7F5F7;
+  }
+  
+  a:visited{
+    text-decoration: none;
+    color: #F7F5F7;
+  }
+  
+  a:active{
+    text-decoration: none;
+    color: #F7F5F7;
+  }
+  
+  .inactive:after {
+    content: "";
+    position: absolute;
+    background-color: #F7F5F7;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: -7px;
+  
+  }
+  
+  .inactive:hover:after {
+    width: 100%;
+    transition: 0.3s;
+  }
+
+  h2 {
+    font-family: bld;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    letter-spacing: 8px;
+
+  }
+  
+  .bodytext {
+    color: #F7F5F7;
+    font-size: 25px;
+    font-family: reg;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: auto;
+    line-height: 32px;
+    position: relative;
+    text-align: left;
+    background: #0B1922;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 125px;
+  }
+  
+ 
+  
+  
+  .imgs {
+  width: 100%;
+  background-color: #0B1922;
+  
+  }
+  
+  .img1 {
+    width: 100%;
+    padding-bottom: 60px;
+  
+  }
+  
+  .img2 {
+    width: 100%;
+    padding-bottom: 60px;
+   
+  }
+  
+  .img3 {
+    width: 100%;
+    padding-bottom: 60px;
+  
+  }
+  
+  
+  @media only screen and (max-width: 1200px) {
+    h1 {
+      font-size: 80px;
+      letter-spacing: 20px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .imgs {
+  
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      max-width: 100%;
+      }
+  
+    .img1 {
+      display: block;
+      max-width: 100%;
+      height: 350px;
+      object-fit: cover;
+      overflow: hidden;
+    
+      }
+  
+    .img2 {
+      display: block;
+      max-width: 100%;
+      height: 350px;
+      object-fit: cover;
+      overflow: hidden;
+    
+      }
+    
+    .img3 {
+      display: block;
+      max-width: 100%;
+      height: 350px;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .bodytext {
+      padding-left: 150px;
+      padding-right: 150px;
+      margin-top: 100px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 905px) {
+    .bodytext {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: 100px;
+    }
+  
+    nav {
+      font-size: 20px;
+      padding-top: 70px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 650px) {
+    h1 {
+      font-size: 30px;
+      letter-spacing: 15px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .btn {
+      width: 100px;
+      height: 40px;
+      font-size: 12.5px;
+    }
+  
+    .container {
+      padding-top: 25px;
+    }
+  
+    .bodytext {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 50px;
+      font-size: 15px;
+      line-height: 21px;
+      font-weight: 400;
+    }
+  
+    .img1:;.img2:;.img3 {
+  
+      padding-bottom: 30px;
+    }
+  
+    nav {
+      font-size: 15px;
+      padding-top: 50px;
+      font-family: bld;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        letter-spacing: 3px;
+  
+  }

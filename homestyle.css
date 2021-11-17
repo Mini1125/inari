@@ -63,23 +63,48 @@ nav {
   letter-spacing: 9px;
 }
 
+.links .current::after {
+
+
+  content: "";
+  position: absolute;
+  background-color: #F7F5F7;
+  height: 3px;
+  width: 100%;
+  left: 0px;
+  bottom: -7px;
+  
+}
+
 a {
   position: relative;
   padding: 0px;
+  text-decoration: none;
+  color: #F7F5F7;
 }
 
-a:after {
+a:visited{
+  text-decoration: none;
+  color: #F7F5F7;
+}
+
+a:active{
+  text-decoration: none;
+  color: #F7F5F7;
+}
+
+.inactive:after {
   content: "";
   position: absolute;
   background-color: #F7F5F7;
   height: 3px;
   width: 0;
   left: 0px;
-  bottom: -10px;
+  bottom: -7px;
 
 }
 
-a:hover:after {
+.inactive:hover:after {
   width: 100%;
   transition: 0.3s;
 }
