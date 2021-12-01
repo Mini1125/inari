@@ -113,9 +113,9 @@ html {
     font-size: 70px;
     text-align: center;
     margin: 0px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 60px;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 
   }
 
@@ -151,8 +151,8 @@ html {
   
   
   .imgs {
-  width: 100%;
-  background-color: #0B1922;
+    width: 100%;
+    background-color: #0B1922;
   
   }
   
