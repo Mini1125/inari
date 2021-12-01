@@ -179,9 +179,26 @@ html {
     padding-bottom: 100px;
     display: block;
     margin: 0px auto;
-    
-   
   }
+
+  .source {
+    color: #0B1922;
+    font-size: 20px;
+    text-align: center;
+    line-height: 5px;
+  }
+
+  #SL {
+    color: #0B1922;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #SL:hover {
+    color: #0f1ab3;
+  }
+
+
   
 
   @media only screen and (max-width: 1200px) {
