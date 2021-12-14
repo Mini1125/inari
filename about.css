@@ -63,6 +63,10 @@ html {
     letter-spacing: 9px;
   }
 
+  .logo {
+    width: 150px;
+  }
+
   .links .current::after {
 
     content: "";
@@ -160,6 +164,10 @@ html {
       padding-top: 120px;
       padding-bottom: 120px;
     }
+    .logo {
+      width: 100px;
+    }
+
   }
   
   
@@ -224,6 +232,7 @@ html {
       font-size: 15px;
       padding-top: 50px;
       font-family: bld;
+      letter-spacing: 5px;
     }
 
     h2 {
@@ -234,3 +243,16 @@ html {
         letter-spacing: 3px;
   
   }
+
+    .logo {
+        width: 50px;
+  }
+  .source {
+    font-size: 10px;
+  }
+
+  #SL{
+    font-size: 10px;
+  }
+  
+}

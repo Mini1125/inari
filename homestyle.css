@@ -63,10 +63,12 @@ nav {
   letter-spacing: 9px;
 }
 
+.logo {
+  width: 150px;
+}
+
 
 .links .current::after {
-
-
   content: "";
   position: absolute;
   background-color: #F7F5F7;
@@ -204,6 +206,10 @@ background-color: #0B1922;
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .logo {
+    width: 100px;
+  }
+
 }
 
 
@@ -256,7 +262,7 @@ background-color: #0B1922;
   }
 }
 
-@media only screen and (max-width: 905px) {
+@media only screen and (max-width: 900px) {
   .bodytext {
     padding-left: 50px;
     padding-right: 50px;
@@ -267,6 +273,11 @@ background-color: #0B1922;
     font-size: 20px;
     padding-top: 70px;
   }
+
+  .logo {
+    width: 50px;
+  }
+
 }
 
 
@@ -306,6 +317,16 @@ background-color: #0B1922;
     font-size: 15px;
     padding-top: 50px;
     font-family: bld;
+    letter-spacing: 5px;
   }
+
+  .source {
+    font-size: 12px;
+  }
+
+  #SL{
+    font-size: 12px;
+  }
+
 
 }  
